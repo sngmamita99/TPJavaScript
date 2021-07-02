@@ -65,7 +65,7 @@ nomp.addEventListener("keyup",function(){
 			}
         }				
     }
-},false);
+},false);KKK
 
 
 
