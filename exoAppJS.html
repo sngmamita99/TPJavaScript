@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>		
+        <meta charset="utf-8"/>	
+		<script>		    
+            function checkAge(a){
+	            //return a<=35 && a>=17;on pourait ecrire seulement cette ligne
+	            if(a>35 || a<17)
+		            return false;
+	            return true;
+            }
+
+		</script>
+        <!-- <script src="checkage.js"></script> -->
+		<!-- <script src="infopersonne.js"></script>			 -->
+    </head>
+    <body>
+	    <script>
+            var n=prompt("Donner votre nom");
+            var p=prompt("Donner votre prénom");    
+	        var a;
+	        do{
+		        a=prompt("Donner votre age");	
+	        }while(!checkAge(a)) //OU a>35 || a<17
+	        var s=prompt("Donner votre genre");
+	        if(s=="f" || s=="F")
+                document.write("Bonjour Madame "+p+" "+n);
+	        else if(s=="m" || s=="M"){
+		        document.write("Bonjour monsieur "+p+" "+n);
+	        }
+	        else
+		        document.write("Le sexe renseigner est incorrect");
+			alert("coucou");
+		</script>
+	</body>
+</html>

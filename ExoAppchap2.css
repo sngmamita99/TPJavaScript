@@ -1,0 +1,28 @@
+body
+{
+	background-color:beige;	
+}
+header
+{
+	text-align:center;
+	background-color:#D473D4;
+	font-size:30px;
+	color:#77B5FE;
+	border:1px solid #FDBCB4;
+	text-decoration:underline;
+	margin-bottom:10px;
+}
+.bl
+{
+	border:2px solid #FFFF00;
+	background-color:#CFA0E9;
+	color:white;
+	border-radius:5px;
+}
+.yel 
+{
+	border:2px solid #CFA0E9;
+	background-color:#F0000F;
+	color:white;
+	border-radius:5px;
+}

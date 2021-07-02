@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8" />
+    <link rel="stylesheet" href="traiterIns.css ?t=<?php echo time();?>"/>
+  	<title></title>
+  </head>	
+  <body>
+  <h1>LES INFORMATIONS REQUISES</h1>	
+<?php
+
+ echo "<h3>IDENTITE</h3>";
+ echo "Bonjour";
+ echo "<br/>";
+ echo $_POST["p1"];
+ echo " ";
+ echo $_POST["p2"];
+ echo " ";
+ echo $_POST["p3"];
+ echo " ";
+ echo $_POST["nom"];
+  echo "<br/> ";
+ if(isset($_POST["nce"]))
+ {
+ 	$nc=$_POST["nce"];
+ 	echo "le numero de carte etudiant est:$nc <br/>";
+ }
+  if(isset($_POST["nce"]))
+ {
+ 	$nq=$_POST["nqi"];
+ 	echo "N Quittance d'Inscription est:$nq <br/>";
+ }
+  if(isset($_POST["ncin"]))
+ {
+ 	$nci=$_POST["ncin"];
+ 	echo " Le N Carte d'Identité Nationale est:$nci <br/>";
+ }
+ /* if(isset($_POST["photo"]))
+ {
+ 	$tof=$_POST["photo"];
+ 	echo "Voici la photo :$tof <br/>";
+ }*/
+echo " <h3>ETAT CIVIL</h3>";
+  if(isset($_POST["nommari"]))
+ {
+ 	$nmari=$_POST["nommari"];
+ 	echo "le nom du mari est:$nmari <br/>";
+ }
+  if(isset($_POST["ddnaiss"]))
+ {
+ 	$dnai=$_POST["ddnaiss"];
+ 	echo "la date de naissance est:$dnai <br/>";
+ }
+ if(isset($_POST["ldnaiss"]))
+ {
+ 	$lnai=$_POST["ldnaiss"];
+ 	echo "le lieu de naissance est:$lnai <br/>";
+ }
+ if(isset($_POST["paysnaiss"]))
+ {
+ 	$pnai=$_POST["paysnaiss"];
+ 	echo "le pays de naissance est:$pnai <br/>";
+ }
+ if(isset($_POST["rnaiss"]))
+ {
+ 	$rnai=$_POST["rnaiss"];
+ 	echo "la region de naissance est:$rnai <br/>";
+ }
+ if(isset($_POST["nationalité"]))
+ {
+ 	$nat=$_POST["nationalité"];
+ 	echo "la date de naissance est:$nat <br/>";
+ }
+  if(isset($_POST["sexe"]))
+ {
+ 	$sex=$_POST["sexe"];
+ 	echo "le sexe est:$sex <br/>";
+ }
+  echo "<h3>ADRESSE ACTUELLE</h3>";
+   if(isset($_POST["adr"]))
+ {
+ 	$adress=$_POST["adr"];
+ 	echo "l'adresse est:$adress ";
+ }
+  if(isset($_POST["oblig"]))
+ {
+ 	$ob=$_POST["oblig"];
+ 	echo "$ob <br/>";
+ }
+  if(isset($_POST["bpost"]))
+ {
+ 	$bpo=$_POST["bpost"];
+ 	echo "la carte postale est:$bpo <br/>";
+ }
+  if(isset($_POST["tel"]))
+ {
+ 	$phone=$_POST["tel"];
+ 	echo "le telephone est:$phone <br/>";
+ }
+  if(isset($_POST["port"]))
+ {
+ 	$portable=$_POST["port"];
+ 	echo "le portable est:$portable <br/>";
+ }
+  if(isset($_POST["mail"]))
+ {
+ 	$email=$_POST["mail"];
+ 	echo "l'adresse mail est:$email <br/>";
+ }
+ echo "<h3>EMPLOI</h3>";
+   if(isset($_POST["act"]))
+ {
+ 	$acti=$_POST["act"];
+ 	echo "Exercez-vous une activite salarie?:$acti <br/>";
+ }
+   if(isset($_POST["regime"]))
+ {
+ 	$reg=$_POST["regime"];
+ 	echo "le regime de l'etudiant est: ";
+ 	foreach ($reg as $cle) {
+ 		echo $cle.'<br/><br/>';
+ 	}
+ }
+echo " <h3>SITUATION FAMILIALE</h3>";
+   if(isset($_POST["situfam"]))
+ {
+ 	$sitf=$_POST["situfam"];
+ 	echo "la situation familiale est:$sitf <br/>";
+ }
+   if(isset($_POST["nbrenf"]))
+ {
+ 	$nbrenfant=$_POST["nbrenf"];
+ 	echo "le nombre d'enfants est:$nbrenfant <br/>";
+ }
+  echo "<h3>INSCRIPTION ANNUELLE</h3>";
+     if(isset($_POST["anetude"]))
+ {
+ 	$ant=$_POST["anetude"];
+ 	echo "l'annee d'etude est:$ant <br/>";
+ }
+
+   if(isset($_POST["cycle"]))
+ {
+ 	$cyc=$_POST["cycle"];
+ 	echo "le cycle est:$cyc <br/>";
+ }
+    if(isset($_POST["dept"]))
+ {
+ 	$departmt=$_POST["dept"];
+ 	echo "le departement est:$departmt <br/>";
+ }
+
+   if(isset($_POST["option"]))
+ {
+ 	$opt=$_POST["option"];
+ 	echo "l'option choisie est:$opt <br/>";
+ }
+   if(isset($_POST["redouble"]))
+ {
+ 	$red=$_POST["redouble"];
+ 	echo "avez-vous redoublez?:$red <br/>";
+ }
+ if(isset($_POST["horaire"]))
+ {
+ 	$hor=$_POST["horaire"];
+ 	echo "horaire des TD:$hor <br/>";
+ }
+
+
+
+?>
+</body>
+</html>

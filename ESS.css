@@ -1,0 +1,14 @@
+.bl 
+{
+	border:2px solid red;
+	color:white;
+	border-radius:5px;
+	background-color:yellow;
+}
+.yel 
+{
+	border:2px solid yellow;
+	color:white;
+	border-radius:5px;
+	background-color:red;
+}

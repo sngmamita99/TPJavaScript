@@ -1,0 +1,40 @@
+body
+{
+	background:#EBC8B2;
+}
+h1
+{
+	text-align:center;
+	color:#048B9A;
+	text-decoration:underline;
+}
+h2
+{
+	text-align:center;
+}
+button
+{
+	background:#048B9A;
+	text-align:center;
+	color:white;
+	text-decoration:underline;
+}
+#formprod
+{
+	width:70%;
+	display:inline-block;
+	border:2px solid blue;
+	margin-top:10px;
+}
+#autocomp
+{
+	width:25%;
+	display:inline-block;
+	border:2px solid blue;
+	margin-top:10px;
+	padding-bottom:10%;
+	vertical-align:top;
+	background-color:#048B9A;
+	color:white;
+	border-radius:15px 0px 15px 0px;
+}

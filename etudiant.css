@@ -1,0 +1,122 @@
+#titre
+{
+    border: 1px solid black;
+	border-radius: 15px 15px;
+	background:  blue;
+	height: 65px;
+}
+#logo
+{
+	margin-left: 200px;
+}
+
+h1
+
+{
+	text-align: center;
+}
+#para1,#para2
+{
+	display: inline;
+}
+#para2
+{
+	
+	 border: 1px solid black;
+	border-radius: 15px 15px;
+	background:  blue;
+	height: 40px;
+	margin-left: 800px;
+	margin-top: 5px;
+
+}
+#quit
+{
+	margin-left: 40px;
+}
+
+#nomg
+{
+	display: inline-block;
+	margin-left: 1500px; 
+	margin-top: -205px;
+
+}
+#p1
+{
+	margin-left: 800px;
+}
+#p2
+{
+	margin-left: 720px;
+}
+#p3
+{
+	margin-left: 550px;
+}
+#sexe
+{
+	margin-left: 20px;
+}
+#pnaiss
+{
+	margin-left:600px;
+}
+#nat
+{
+	margin-left: 650px;
+}
+#bpost
+{
+	margin-left: 400px; 
+}
+body
+{
+	font-size: 25px;
+}
+
+#port
+{
+	margin-left: 100px;
+}
+#mail
+{
+	margin-left: 200px;
+}
+#nbrenf
+{
+	margin-left: 900px;
+}
+#rnorm
+{
+	margin-left: 800px;
+}
+#rsal
+{
+	margin-left: 1000px;
+}
+#rpar
+{
+	margin-left: 1000px;
+}
+#misepst
+{
+	margin-left:1000px;
+}
+#dept
+{
+	margin-left: 300px;
+}
+#opt
+{
+	margin-left: 870px;
+}
+#an2
+{
+	margin-left: 350px;
+}
+#quit
+{
+	/* margin-left: 350px; */
+	width:20%;
+}

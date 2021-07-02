@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="etudiant.css"/>
+    <title></title>
+  </head>
+  <body>
+  	<form id="formu" action="traiterInscription.html" method="POST">
+  	<header>
+  		
+  		 <p id="para1"><h3>UNIVERSITE CHEIKH ANTA DIOP DE DAKAR</h3></p>
+  		 <p id="para2">ANNEE UNIVERSITAIRE 201<input type="text" name="a1" size="1"> /201<input type="text" name="a2" size="1"> </p>
+
+  	</header>
+  	<p><img id="logo" src="Logoucad.JPG" alt="UcadLogo" /></p>
+  	<p><h1>DOSSIER D'INSCRIPTION ADMINISTRATIVE</h1></p>
+  	<p><label>Photo de profil<input type="file" name="photo" accept="image"></label></p>
+  	
+	<p>
+	    <label >N Carte d'Etudiant ou INE<input id="numCE" type="text" name="nce" size="40px" /></label> 	  
+	    <label >N° Quittance d'Inscription<input id="quit" type="text" name="nqi" size="200px" /></label>
+	</p>
+	
+  	  <p><label id="ncin">N° Carte d'Identité Nationale (sénégalaise uniquement)<input type="number" name="ncin"
+  	  	size="100px" /></label></p>
+
+  	  <div id="titre">
+  	  	<h3>2.ETAT CIVIL</h3>
+  	  </div>
+
+  	  <p><label>Nom<input type="text" name="nom" /></label><label id="p1">Prénom 1<input type="text" name="p1" /></label></p>
+  	  <p><label>Nom du mari<input type="text" name="nommari" /></label><label id="p2">Prénom 2<input type="text" name="p2" /></label></p>
+  	  <p><label>Date de naissance<input type="date" name="ddnaiss"   /></label>
+  	    <label id="sexe">Sexe:H<input type="radio" name="sexe" value="M" />F<input type="radio" name="sexe" value="F"/></label><label id="p3">Prénom 3<input type="text" name="p3" /></label></p>
+      <p><label>Lieu de naissance<input type="text" name="ldnaiss"></label><label id="pnaiss">Pays de naissance<input type="text" name="paysnaiss" /></label></p>
+      <p><label>Region de naissance<input type="text" name="rdnaiss"></label><label id="nat">Nationalité<input type="text" name="nationalité" /></label></p>
+        
+  	  <div id="titre">
+         <h3>3.ADRESSE ACTUELLE</h3>
+  	  </div>
+  	  <P>
+  	  	<label>Adresse a Dakar<input type="text" name="adr" size="50px" /></label>
+  	  	
+  	    <label id="bpost">Boite Postale<input type="text" name=" bpost" /></label>
+  	  	
+  	   
+  	</P>
+  	    <label>(obligatoire)<input type="text" name="oblig" size="50px" /></label>
+  	<div id="tel">
+  	<p>
+  		<label>Téléphone<input type="number" name="tel" placeholder="771117324" /></label>
+  		<label id="port">Portable<input type="number" name="port" /></label>
+  		<label id="mail">Email(obligatoire)<input type="email" name="mail" placeholder="mya1510@gmail.com" /></label>
+  	</p>
+   </div>
+
+
+  	  <div id="titre">
+         <h3>4.EMPLOI</h3>
+  	  </div>
+
+  	  <label>Exercez-vous une activité salarié ?   Oui<input type="radio" name="act" value="oui">Non<input type="radio" name="act" value="non" /></label>
+  	 <p id="rnorm">Statut de l'Etudiant <label>Regime normal<input type="checkbox" name="regime[]" /></label></p>
+  	 <p><label id="rsal">Regime salarie<input type="checkbox" name="regime[]" /></label></p>
+  	 <p><label id="rpar">Regime particulier<input type="checkbox" name="regime[]" /></label></p>
+  	 <p><label id="misepst">Mise en Position de stage<input type="checkbox" name="regime[]" /></label></p>
+  	 <p><label id="catsocio">Categrie socioprofessionnelle<input type="text" name="regime[]" size="100px" /></label></p>
+
+  	 <div id="titre">
+         <h3>5.SITUATION FAMILIALE</h3>
+  	  </div>
+  	  
+  	  <p><label id="situfam">Situation familiale<input type="text" name="situfam" /></label>
+  	  <label id="nbrenf">Nombre d'enfants<input type="number" name="nbrenf" /></label></p>
+  	
+  	 <div id="titre">
+         <h3>6.INSCRIPTION ANNUELLE</h3>
+  	 </div>
+  	 <p><label>vous vous inscrivez<input type="text" name="anetude"><input type="text" name="cycle"></label><label id="dept">Departement ou<input type="text" name="dept"></label></p>
+  	 <p><label id="opt">option choisie<input type="text" name="option"></label></p>
+  	 <p><label>Nombre d'inscriptions antérieures : 1ère année<input type="text" name="annee1" /></label></p>
+  	 <p><label id="an2">2ème année<input type="text" name="annee2" /></label></p>
+  	 <p><label>Redoublez-vous? OUI <input type="radio" name="redouble" value="oui"> NON<input type="radio" name="redouble" value="non"></label></p>
+  	 <p><label>Horaires des TD: Avant 18h <input type="radio" name="horaire" value="avant 18h"> Apres 18h <input type="radio" name="horaire" value="apres 18h"> Regime particulier <input type="radio" name="horaire" value="regime particulier"></label></p>
+  	 <p>(1): Rayez la mention inutile/(2): A remplir s'il y a lieu/(3): Cochez la case utile/(4): Uniquement FASEG et FSJP</p>
+
+  	 <p><label><input type="submit" name="valider" value="Valider"/></label>
+	    </p>
+
+    <script src="inscriptionEtudiant.js"></script>
+  	 
+
+
+  </body>
